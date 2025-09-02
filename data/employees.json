@@ -1,0 +1,858 @@
+{
+    "office": 25,
+    "employees": [
+        {
+            "id": "u_1001",
+            "name": "Aarav Kumar",
+            "node": 47,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1002",
+            "name": "Zara Patel",
+            "node": 12,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1003",
+            "name": "Vihaan Singh",
+            "node": 23,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1004",
+            "name": "Ayaan Ali",
+            "node": 34,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1005",
+            "name": "Arjun Reddy",
+            "node": 45,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1006",
+            "name": "Kabir Khan",
+            "node": 56,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1007",
+            "name": "Vivaan Shah",
+            "node": 67,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1008",
+            "name": "Reyansh Verma",
+            "node": 78,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1009",
+            "name": "Lakshay Mehta",
+            "node": 89,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1010",
+            "name": "Krishna Iyer",
+            "node": 90,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1011",
+            "name": "Sai Teja",
+            "node": 91,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1012",
+            "name": "Niranjan",
+            "node": 92,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1013",
+            "name": "Harsh Patel",
+            "node": 93,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1014",
+            "name": "Aditya Joshi",
+            "node": 94,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1015",
+            "name": "Shivansh",
+            "node": 95,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1016",
+            "name": "Rudra Pratap",
+            "node": 96,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1017",
+            "name": "Devansh",
+            "node": 97,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1018",
+            "name": "Kartik",
+            "node": 98,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1019",
+            "name": "Om Sharma",
+            "node": 99,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1020",
+            "name": "Aniket",
+            "node": 100,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1021",
+            "name": "Tanmay",
+            "node": 101,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1022",
+            "name": "Harshit",
+            "node": 102,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1023",
+            "name": "Bhavesh",
+            "node": 103,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1024",
+            "name": "Gaurav",
+            "node": 104,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1025",
+            "name": "Siddharth",
+            "node": 105,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1026",
+            "name": "Vansh",
+            "node": 106,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1027",
+            "name": "Yash",
+            "node": 107,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1028",
+            "name": "Pulkit",
+            "node": 108,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1029",
+            "name": "Aarav",
+            "node": 109,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1030",
+            "name": "Vihaan",
+            "node": 110,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1031",
+            "name": "Reyansh",
+            "node": 111,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1032",
+            "name": "Krishna",
+            "node": 112,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1033",
+            "name": "Sai",
+            "node": 113,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1034",
+            "name": "Lakshay",
+            "node": 114,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1035",
+            "name": "Aditya",
+            "node": 115,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1036",
+            "name": "Shivansh",
+            "node": 116,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1037",
+            "name": "Rudra",
+            "node": 117,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1038",
+            "name": "Dev",
+            "node": 118,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1039",
+            "name": "Kartikeya",
+            "node": 119,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1040",
+            "name": "Om",
+            "node": 120,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1041",
+            "name": "Ansh",
+            "node": 121,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1042",
+            "name": "Tanay",
+            "node": 122,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1043",
+            "name": "Harsh",
+            "node": 123,
+            "team": "Team Alpha",
+            "spoc": "spoc_1"
+        },
+        {
+            "id": "u_1044",
+            "name": "Bhavya",
+            "node": 124,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1045",
+            "name": "Gaurav",
+            "node": 125,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1046",
+            "name": "Siddharth",
+            "node": 126,
+            "team": "Team Delta",
+            "spoc": "spoc_4"
+        },
+        {
+            "id": "u_1047",
+            "name": "Vansh",
+            "node": 127,
+            "team": "Team Epsilon",
+            "spoc": "spoc_5"
+        },
+        {
+            "id": "u_1048",
+            "name": "Yash",
+            "node": 128,
+            "team": "Team Zeta",
+            "spoc": "spoc_6"
+        },
+        {
+            "id": "u_1049",
+            "name": "Pulkit",
+            "node": 129,
+            "team": "Team Eta",
+            "spoc": "spoc_7"
+        },
+        {
+            "id": "u_1050",
+            "name": "Aarav",
+            "node": 130,
+            "team": "Team Beta",
+            "spoc": "spoc_2"
+        },
+        {
+            "id": "u_1051",
+            "name": "Vihaan",
+            "node": 131,
+            "team": "Team Gamma",
+            "spoc": "spoc_3"
+        },
+        {
+            "id": "u_1052",
+            "name": "Reyansh",
+            "node": 132,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1053",
+            "name": "Krishna",
+            "node": 133,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1054",
+            "name": "Sai",
+            "node": 134,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1055",
+            "name": "Lakshay",
+            "node": 135,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1056",
+            "name": "Aditya",
+            "node": 136,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1057",
+            "name": "Shivansh",
+            "node": 137,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1058",
+            "name": "Rudra",
+            "node": 138,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1059",
+            "name": "Dev",
+            "node": 139,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1060",
+            "name": "Om",
+            "node": 140,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1061",
+            "name": "Ansh",
+            "node": 141,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1062",
+            "name": "Tanay",
+            "node": 142,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1063",
+            "name": "Harsh",
+            "node": 143,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1064",
+            "name": "Bhavya",
+            "node": 144,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1065",
+            "name": "Gaurav",
+            "node": 145,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1066",
+            "name": "Siddharth",
+            "node": 146,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1067",
+            "name": "Vansh",
+            "node": 147,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1068",
+            "name": "Yash",
+            "node": 148,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1069",
+            "name": "Pulkit",
+            "node": 149,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1070",
+            "name": "Aarav",
+            "node": 150,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1071",
+            "name": "Vihaan",
+            "node": 151,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1072",
+            "name": "Reyansh",
+            "node": 152,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1073",
+            "name": "Krishna",
+            "node": 153,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1074",
+            "name": "Sai",
+            "node": 154,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1075",
+            "name": "Lakshay",
+            "node": 155,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1076",
+            "name": "Aditya",
+            "node": 156,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1077",
+            "name": "Shivansh",
+            "node": 157,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1078",
+            "name": "Rudra",
+            "node": 158,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1079",
+            "name": "Dev",
+            "node": 159,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1080",
+            "name": "Om",
+            "node": 160,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1081",
+            "name": "Ansh",
+            "node": 161,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1082",
+            "name": "Tanay",
+            "node": 162,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1083",
+            "name": "Harsh",
+            "node": 163,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1084",
+            "name": "Bhavya",
+            "node": 164,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1085",
+            "name": "Gaurav",
+            "node": 165,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1086",
+            "name": "Siddharth",
+            "node": 166,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1087",
+            "name": "Vansh",
+            "node": 167,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1088",
+            "name": "Yash",
+            "node": 168,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1089",
+            "name": "Pulkit",
+            "node": 169,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1090",
+            "name": "Aarav",
+            "node": 170,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1091",
+            "name": "Vihaan",
+            "node": 171,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1092",
+            "name": "Reyansh",
+            "node": 172,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1093",
+            "name": "Krishna",
+            "node": 173,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1094",
+            "name": "Sai",
+            "node": 174,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        },
+        {
+            "id": "u_1095",
+            "name": "Lakshay",
+            "node": 175,
+            "team": "Team Lambda",
+            "spoc": "spoc_11"
+        },
+        {
+            "id": "u_1096",
+            "name": "Aditya",
+            "node": 176,
+            "team": "Team Omega",
+            "spoc": "spoc_12"
+        },
+        {
+            "id": "u_1097",
+            "name": "Shivansh",
+            "node": 177,
+            "team": "Team Theta",
+            "spoc": "spoc_8"
+        },
+        {
+            "id": "u_1098",
+            "name": "Rudra",
+            "node": 178,
+            "team": "Team Iota",
+            "spoc": "spoc_9"
+        },
+        {
+            "id": "u_1099",
+            "name": "Dev",
+            "node": 179,
+            "team": "Team Kappa",
+            "spoc": "spoc_10"
+        }
+    ],
+    "teams": [
+        {
+            "name": "Team Alpha",
+            "spoc": "spoc_1",
+            "members": [
+                "u_1001",
+                "u_1002",
+                "u_1008",
+                "u_1015",
+                "u_1022",
+                "u_1029",
+                "u_1036",
+                "u_1043"
+            ]
+        },
+        {
+            "name": "Team Beta",
+            "spoc": "spoc_2",
+            "members": [
+                "u_1003",
+                "u_1009",
+                "u_1016",
+                "u_1023",
+                "u_1030",
+                "u_1037",
+                "u_1044",
+                "u_1050"
+            ]
+        },
+        {
+            "name": "Team Gamma",
+            "spoc": "spoc_3",
+            "members": [
+                "u_1004",
+                "u_1010",
+                "u_1017",
+                "u_1024",
+                "u_1031",
+                "u_1038",
+                "u_1045",
+                "u_1051"
+            ]
+        },
+        {
+            "name": "Team Delta",
+            "spoc": "spoc_4",
+            "members": [
+                "u_1005",
+                "u_1011",
+                "u_1018",
+                "u_1025",
+                "u_1032",
+                "u_1039",
+                "u_1046"
+            ]
+        },
+        {
+            "name": "Team Epsilon",
+            "spoc": "spoc_5",
+            "members": [
+                "u_1006",
+                "u_1012",
+                "u_1019",
+                "u_1026",
+                "u_1033",
+                "u_1040",
+                "u_1047"
+            ]
+        },
+        {
+            "name": "Team Zeta",
+            "spoc": "spoc_6",
+            "members": [
+                "u_1007",
+                "u_1013",
+                "u_1020",
+                "u_1027",
+                "u_1034",
+                "u_1041",
+                "u_1048"
+            ]
+        },
+        {
+            "name": "Team Eta",
+            "spoc": "spoc_7",
+            "members": [
+                "u_1014",
+                "u_1021",
+                "u_1028",
+                "u_1035",
+                "u_1042",
+                "u_1049"
+            ]
+        },
+        {
+            "name": "Team Theta",
+            "spoc": "spoc_8",
+            "members": [
+                "u_1052",
+                "u_1059",
+                "u_1066",
+                "u_1073",
+                "u_1080",
+                "u_1087",
+                "u_1094"
+            ]
+        },
+        {
+            "name": "Team Iota",
+            "spoc": "spoc_9",
+            "members": [
+                "u_1053",
+                "u_1060",
+                "u_1067",
+                "u_1074",
+                "u_1081",
+                "u_1088",
+                "u_1095"
+            ]
+        },
+        {
+            "name": "Team Kappa",
+            "spoc": "spoc_10",
+            "members": [
+                "u_1054",
+                "u_1061",
+                "u_1068",
+                "u_1075",
+                "u_1082",
+                "u_1089",
+                "u_1096"
+            ]
+        },
+        {
+            "name": "Team Lambda",
+            "spoc": "spoc_11",
+            "members": [
+                "u_1055",
+                "u_1062",
+                "u_1069",
+                "u_1076",
+                "u_1083",
+                "u_1090",
+                "u_1097"
+            ]
+        },
+        {
+            "name": "Team Omega",
+            "spoc": "spoc_12",
+            "members": [
+                "u_1056",
+                "u_1063",
+                "u_1070",
+                "u_1077",
+                "u_1084",
+                "u_1091",
+                "u_1098"
+            ]
+        }
+    ]
+}
