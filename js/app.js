@@ -32,41 +32,63 @@ function drawGraph() {
     const nodes = graphData.nodes;
     const edges = graphData.edges;
 
-    // Draw edges
+    // --- Find bounding box of all node positions ---
+    let xs = [], ys = [];
+    for (const id in nodes) {
+        xs.push(nodes[id].pos[0]);
+        ys.push(nodes[id].pos[1]);
+    }
+    const minX = Math.min(...xs), maxX = Math.max(...xs);
+    const minY = Math.min(...ys), maxY = Math.max(...ys);
+
+    const padding = 40; // some space around the graph
+    const scaleX = (canvas.width - 2 * padding) / (maxX - minX);
+    const scaleY = (canvas.height - 2 * padding) / (maxY - minY);
+
+    // scale so aspect ratio is preserved
+    const scale = Math.min(scaleX, scaleY);
+
+    function transform([x, y]) {
+        return [
+            (x - minX) * scale + padding,
+            (y - minY) * scale + padding
+        ];
+    }
+
+    // --- Draw edges ---
     ctx.strokeStyle = "#bdc3c7";
     edges.forEach(edge => {
-        const u = nodes[edge.u].pos;
-        const v = nodes[edge.v].pos;
+        const u = transform(nodes[edge.u].pos);
+        const v = transform(nodes[edge.v].pos);
         ctx.beginPath();
         ctx.moveTo(u[0], u[1]);
         ctx.lineTo(v[0], v[1]);
         ctx.stroke();
     });
 
-    // Draw nodes
+    // --- Draw nodes ---
     for (const id in nodes) {
-        const pos = nodes[id].pos;
+        const pos = transform(nodes[id].pos);
         ctx.beginPath();
-        ctx.arc(pos[0], pos[1], 4, 0, Math.PI * 2);
+        ctx.arc(pos[0], pos[1], 5, 0, Math.PI * 2);
         ctx.fillStyle = "steelblue";
         ctx.fill();
 
-        // Office node in black
         if (parseInt(id) === employeeData.office) {
             ctx.fillStyle = "black";
             ctx.beginPath();
-            ctx.arc(pos[0], pos[1], 6, 0, Math.PI * 2);
+            ctx.arc(pos[0], pos[1], 7, 0, Math.PI * 2);
             ctx.fill();
         }
     }
 
-    // Add hover interactivity
+    // --- Hover detection also needs scaling ---
     canvas.onmousemove = function (event) {
         const rect = canvas.getBoundingClientRect();
         const x = event.clientX - rect.left;
         const y = event.clientY - rect.top;
 
-        const nodeId = findNodeAt(x, y, nodes);
+        const nodeId = findNodeAt(x, y, nodes, transform);
         if (nodeId !== null) {
             showNodeInfo(nodeId);
         } else {
@@ -74,6 +96,19 @@ function drawGraph() {
         }
     };
 }
+
+function findNodeAt(x, y, nodes, transform) {
+    for (const id in nodes) {
+        const [nx, ny] = transform(nodes[id].pos);
+        const dx = x - nx;
+        const dy = y - ny;
+        if (Math.sqrt(dx * dx + dy * dy) < 6) {
+            return parseInt(id);
+        }
+    }
+    return null;
+}
+
 
 // --- Resize canvas to fit section ---
 function resizeCanvas(canvas) {
