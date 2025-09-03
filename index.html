@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transport Management System</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Transport Management System</h1>
+        <nav>
+            <button onclick="setRole('admin')">Admin</button>
+            <button onclick="setRole('spoc')">SPOC</button>
+            <button onclick="setRole('user')">User</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="map-section">
+            <canvas id="graphCanvas"></canvas>
+        </section>
+        <section id="info-section">
+            <h2>Node Info</h2>
+            <div id="node-info">Hover a node to see details</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hosted on GitHub Pages | MVP version</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
